@@ -1,0 +1,14 @@
+# Synthetic Data Vault
+sdv>=1.10.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.0

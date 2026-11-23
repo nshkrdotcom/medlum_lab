@@ -1,0 +1,12 @@
+# Generated synthetic data
+data/
+outputs/
+
+# Trained models
+models/
+*.pkl
+
+# Python
+venv/
+__pycache__/
+*.pyc

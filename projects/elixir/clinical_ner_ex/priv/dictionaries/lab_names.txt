@@ -1,0 +1,64 @@
+# Common laboratory test names
+# Format: lab_name | aliases (comma-separated) | typical_unit
+glucose|glu,blood glucose,FBS,RBS,fasting glucose|mg/dL
+hemoglobin a1c|a1c,hba1c,hgb a1c,glycated hemoglobin|%
+creatinine|cr,crea,serum creatinine|mg/dL
+bun|blood urea nitrogen,urea nitrogen|mg/dL
+sodium|na,na+|mEq/L
+potassium|k,k+|mEq/L
+chloride|cl,cl-|mEq/L
+co2|carbon dioxide,bicarbonate,bicarb|mEq/L
+hemoglobin|hgb,hb|g/dL
+hematocrit|hct|%
+wbc|white blood cell count,white count,leukocytes|10^3/uL
+platelets|plt,platelet count|10^3/uL
+rbc|red blood cell count,red count,erythrocytes|10^6/uL
+tsh|thyroid stimulating hormone|mIU/L
+free t4|ft4,thyroxine free|ng/dL
+total cholesterol|cholesterol,tc|mg/dL
+hdl|hdl cholesterol,hdl-c|mg/dL
+ldl|ldl cholesterol,ldl-c|mg/dL
+triglycerides|trig,tg|mg/dL
+alt|sgpt,alanine aminotransferase|U/L
+ast|sgot,aspartate aminotransferase|U/L
+alkaline phosphatase|alp,alk phos|U/L
+total bilirubin|bilirubin,tbili|mg/dL
+albumin|alb|g/dL
+total protein|protein,tp|g/dL
+inr|international normalized ratio|ratio
+pt|prothrombin time|seconds
+ptt|partial thromboplastin time,aptt|seconds
+egfr|gfr,estimated gfr|mL/min/1.73m2
+calcium|ca,ca2+|mg/dL
+magnesium|mg,mg2+|mg/dL
+phosphorus|phos,phosphate|mg/dL
+mcv|mean corpuscular volume|fL
+mch|mean corpuscular hemoglobin|pg
+mchc|mean corpuscular hemoglobin concentration|g/dL
+rdw|red cell distribution width|%
+mpv|mean platelet volume|fL
+neutrophils|neut,segs,polymorphs|%
+lymphocytes|lymph,lymphs|%
+monocytes|mono,monos|%
+eosinophils|eos,eosino|%
+basophils|baso,basos|%
+ferritin|serum ferritin|ng/mL
+iron|serum iron,fe|mcg/dL
+tibc|total iron binding capacity|mcg/dL
+transferrin saturation|tsat,iron saturation|%
+vitamin d|vit d,25-oh vitamin d,25-hydroxy vitamin d|ng/mL
+vitamin b12|b12,cobalamin|pg/mL
+folate|folic acid|ng/mL
+uric acid|urate|mg/dL
+lipase|serum lipase|U/L
+amylase|serum amylase|U/L
+troponin|trop,troponin i,troponin t,tni,tnt|ng/mL
+bnp|brain natriuretic peptide,b-type natriuretic peptide|pg/mL
+procalcitonin|pct|ng/mL
+crp|c-reactive protein|mg/L
+esr|erythrocyte sedimentation rate,sed rate|mm/hr
+lactate|lactic acid|mmol/L
+ammonia|serum ammonia|umol/L
+cortisol|serum cortisol|mcg/dL
+hcg|human chorionic gonadotropin,beta hcg|mIU/mL
+psa|prostate specific antigen|ng/mL

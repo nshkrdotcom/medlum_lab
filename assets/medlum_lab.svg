@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" role="img" aria-label="Medlum Lab hexagonal medical AI emblem">
+  <defs>
+    <clipPath id="hex-outer-clip">
+      <polygon points="100,4 183.14,52 183.14,148 100,196 16.86,148 16.86,52" />
+    </clipPath>
+
+    <clipPath id="hex-inner-clip">
+      <polygon points="100,13 175.34,56.5 175.34,143.5 100,187 24.66,143.5 24.66,56.5" />
+    </clipPath>
+
+    <radialGradient id="bezel-metal" cx="50%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="55%" stop-color="#1E3A5F" />
+      <stop offset="82%" stop-color="#0F253D" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </radialGradient>
+
+    <linearGradient id="bevel-stroke" x1="100" y1="13" x2="100" y2="187" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A5F3FC" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#0EA5E9" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#A5F3FC" stop-opacity="0.85" />
+    </linearGradient>
+
+    <radialGradient id="chassis-bg" cx="50%" cy="50%" r="56%">
+      <stop offset="0%" stop-color="#15314B" />
+      <stop offset="48%" stop-color="#0B192C" />
+      <stop offset="84%" stop-color="#060E1A" />
+      <stop offset="100%" stop-color="#03070E" />
+    </radialGradient>
+
+    <radialGradient id="core-aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.38" />
+      <stop offset="42%" stop-color="#0EA5E9" stop-opacity="0.16" />
+      <stop offset="72%" stop-color="#6366F1" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cross-fill" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#1B4965" stop-opacity="0.96" />
+      <stop offset="55%" stop-color="#0E2740" stop-opacity="0.96" />
+      <stop offset="100%" stop-color="#09192B" stop-opacity="0.98" />
+    </radialGradient>
+
+    <radialGradient id="cross-stroke" cx="50%" cy="50%" r="56%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </radialGradient>
+
+    <radialGradient id="prism-core-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0E2E4A" />
+      <stop offset="68%" stop-color="#07182B" />
+      <stop offset="100%" stop-color="#040D18" />
+    </radialGradient>
+
+    <radialGradient id="lumen-star" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#A5F3FC" />
+      <stop offset="75%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </radialGradient>
+
+    <radialGradient id="ring-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="75%" stop-color="#22D3EE" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.9" />
+    </radialGradient>
+
+    <pattern id="micro-grid" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="translate(4 4)">
+      <path d="M 12 0 L 0 0 0 12" fill="none" stroke="#38BDF8" stroke-width="0.45" stroke-opacity="0.1" />
+      <circle cx="0" cy="0" r="0.65" fill="#67E8F9" fill-opacity="0.16" />
+    </pattern>
+
+    <filter id="lumen-bloom" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.4" result="blur1" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="node-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="depth-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#000000" flood-opacity="0.72" />
+    </filter>
+  </defs>
+
+  <g clip-path="url(#hex-outer-clip)">
+    <!-- Outer metallic hexagonal bezel -->
+    <polygon points="100,4 183.14,52 183.14,148 100,196 16.86,148 16.86,52" fill="url(#bezel-metal)" />
+
+    <!-- Symmetrical chamfered bezel facets -->
+    <polygon points="100,4 183.14,52 175.34,56.5 100,13" fill="#E0F2FE" fill-opacity="0.22" />
+    <polygon points="100,4 16.86,52 24.66,56.5 100,13" fill="#E0F2FE" fill-opacity="0.22" />
+    <polygon points="100,196 183.14,148 175.34,143.5 100,187" fill="#E0F2FE" fill-opacity="0.22" />
+    <polygon points="100,196 16.86,148 24.66,143.5 100,187" fill="#E0F2FE" fill-opacity="0.22" />
+    <polygon points="16.86,52 16.86,148 24.66,143.5 24.66,56.5" fill="#020617" fill-opacity="0.32" />
+    <polygon points="183.14,52 183.14,148 175.34,143.5 175.34,56.5" fill="#020617" fill-opacity="0.32" />
+
+    <!-- Inner recessed clinical field -->
+    <g clip-path="url(#hex-inner-clip)">
+      <polygon points="100,13 175.34,56.5 175.34,143.5 100,187 24.66,143.5 24.66,56.5" fill="url(#chassis-bg)" />
+      <rect x="12" y="12" width="176" height="176" fill="url(#micro-grid)" />
+      <circle cx="100" cy="100" r="82" fill="url(#core-aura)" />
+
+      <!-- 6-fold radial axis reticle -->
+      <g stroke="#38BDF8" stroke-width="0.65" stroke-opacity="0.18">
+        <line x1="100" y1="13" x2="100" y2="187" />
+        <line x1="24.66" y1="56.5" x2="175.34" y2="143.5" />
+        <line x1="175.34" y1="56.5" x2="24.66" y2="143.5" />
+      </g>
+
+      <!-- Outer dashed calibration hexagon -->
+      <polygon points="100,24 165.82,62 165.82,138 100,176 34.18,138 34.18,62" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.26" stroke-dasharray="4 3" />
+
+      <!-- Federated lattice hexagon -->
+      <polygon points="100,34 157.16,67 157.16,133 100,166 42.84,133 42.84,67" fill="none" stroke="#22D3EE" stroke-width="1.1" stroke-opacity="0.42" />
+
+      <!-- Precision orbital calibration rings -->
+      <circle cx="100" cy="100" r="56" fill="none" stroke="#38BDF8" stroke-width="0.75" stroke-opacity="0.24" />
+      <circle cx="100" cy="100" r="50" fill="none" stroke="#67E8F9" stroke-width="2.6" stroke-dasharray="1.4 11.69" transform="rotate(-90 100 100)" stroke-opacity="0.34" />
+
+      <!-- Symmetrical faceted diamond frame uniting 4-fold cross and 6-fold hex -->
+      <polygon points="100,56 144,100 100,144 56,100" fill="#0B2239" fill-opacity="0.55" stroke="#38BDF8" stroke-width="0.9" stroke-opacity="0.45" />
+
+      <!-- Precision chamfered medical cross (4-way symmetrical) -->
+      <path d="M 89,52 L 111,52 L 115,56 L 115,85 L 144,85 L 148,89 L 148,111 L 144,115 L 115,115 L 115,144 L 111,148 L 89,148 L 85,144 L 85,115 L 56,115 L 52,111 L 52,89 L 56,85 L 85,85 L 85,56 Z" fill="url(#cross-fill)" stroke="url(#cross-stroke)" stroke-width="1.4" filter="url(#depth-shadow)" />
+
+      <!-- Inner hairline bevel of medical cross -->
+      <path d="M 91,56 L 109,56 L 111,58 L 111,89 L 142,89 L 144,91 L 144,109 L 142,111 L 111,111 L 111,142 L 109,144 L 91,144 L 89,142 L 89,111 L 58,111 L 56,109 L 56,91 L 58,89 L 89,89 L 89,58 Z" fill="none" stroke="#E0F2FE" stroke-width="0.55" stroke-opacity="0.24" />
+
+      <!-- Symmetrical channel traces inside the 4 cross arms -->
+      <g stroke="#22D3EE" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.72">
+        <line x1="100" y1="60" x2="100" y2="73" />
+        <line x1="100" y1="127" x2="100" y2="140" />
+        <line x1="60" y1="100" x2="73" y2="100" />
+        <line x1="127" y1="100" x2="140" y2="100" />
+      </g>
+
+      <!-- Central optical verification chamber -->
+      <circle cx="100" cy="100" r="27" fill="url(#prism-core-bg)" stroke="url(#ring-glow)" stroke-width="1.5" filter="url(#depth-shadow)" />
+      <circle cx="100" cy="100" r="21" fill="none" stroke="#67E8F9" stroke-width="0.7" stroke-opacity="0.38" />
+
+      <!-- Secondary diagonal star rays (8-way balance) -->
+      <polygon points="112.02,87.98 103.8,100 112.02,112.02 100,103.8 87.98,112.02 96.2,100 87.98,87.98 100,96.2" fill="#38BDF8" fill-opacity="0.55" />
+
+      <!-- Primary luminous 4-point star ("MedLum" core) -->
+      <polygon points="100,74 105.3,94.7 126,100 105.3,105.3 100,126 94.7,105.3 74,100 94.7,94.7" fill="url(#lumen-star)" filter="url(#lumen-bloom)" />
+      <polygon points="100,79 103.6,96.4 121,100 103.6,103.6 100,121 96.4,103.6 79,100 96.4,96.4" fill="#FFFFFF" fill-opacity="0.88" />
+
+      <!-- Center jewel nucleus -->
+      <circle cx="100" cy="100" r="4.2" fill="#FFFFFF" filter="url(#node-glow)" />
+      <circle cx="100" cy="100" r="1.8" fill="#0EA5E9" />
+
+      <!-- 4 symmetrical cross-arm terminal nodes -->
+      <g filter="url(#node-glow)">
+        <circle cx="100" cy="60" r="2.1" fill="#A5F3FC" />
+        <circle cx="100" cy="140" r="2.1" fill="#A5F3FC" />
+        <circle cx="60" cy="100" r="2.1" fill="#A5F3FC" />
+        <circle cx="140" cy="100" r="2.1" fill="#A5F3FC" />
+      </g>
+
+      <!-- 6 symmetrical federated lattice vertex nodes -->
+      <g filter="url(#node-glow)">
+        <circle cx="100" cy="34" r="2.8" fill="#67E8F9" />
+        <circle cx="157.16" cy="67" r="2.8" fill="#38BDF8" />
+        <circle cx="157.16" cy="133" r="2.8" fill="#38BDF8" />
+        <circle cx="100" cy="166" r="2.8" fill="#67E8F9" />
+        <circle cx="42.84" cy="133" r="2.8" fill="#38BDF8" />
+        <circle cx="42.84" cy="67" r="2.8" fill="#38BDF8" />
+      </g>
+      <g fill="#FFFFFF">
+        <circle cx="100" cy="34" r="1.1" />
+        <circle cx="157.16" cy="67" r="1.1" />
+        <circle cx="157.16" cy="133" r="1.1" />
+        <circle cx="100" cy="166" r="1.1" />
+        <circle cx="42.84" cy="133" r="1.1" />
+        <circle cx="42.84" cy="67" r="1.1" />
+      </g>
+    </g>
+
+    <!-- Inner and outer crisp hexagonal strokes -->
+    <polygon points="100,13 175.34,56.5 175.34,143.5 100,187 24.66,143.5 24.66,56.5" fill="none" stroke="url(#bevel-stroke)" stroke-width="1.35" />
+    <polygon points="100,4 183.14,52 183.14,148 100,196 16.86,148 16.86,52" fill="none" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.8" />
+  </g>
+</svg>

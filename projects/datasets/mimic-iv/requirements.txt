@@ -1,0 +1,19 @@
+# MIMIC-IV data processing
+pandas>=2.0.0
+pyarrow>=14.0.0
+polars>=0.20.0
+
+# PhysioNet tools
+wfdb>=4.1.0
+
+# Database connectivity (optional)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# NLP preprocessing
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.0

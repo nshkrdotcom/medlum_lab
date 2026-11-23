@@ -1,0 +1,16 @@
+# Vocabulary files (large, download from Athena)
+vocab/
+*.csv
+
+# Database files
+*.db
+*.sqlite
+
+# Data exports
+data/
+outputs/
+
+# Python
+venv/
+__pycache__/
+*.pyc

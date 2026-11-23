@@ -1,0 +1,20 @@
+# Generated data
+data/
+outputs/
+
+# Models and checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+tensorboard/

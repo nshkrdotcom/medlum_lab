@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "patterns": {
+    "lab_with_value": {
+      "description": "Lab name followed by numeric value and optional unit",
+      "confidence": 0.9
+    },
+    "lab_with_reference": {
+      "description": "Lab with value and reference range in parentheses",
+      "confidence": 0.95
+    },
+    "electrolyte_shorthand": {
+      "description": "Electrolyte panel shorthand (Na 138, K 4.2, Cl 102)",
+      "confidence": 0.90
+    },
+    "percentage_value": {
+      "description": "Lab value expressed as percentage (A1c 7.2%)",
+      "confidence": 0.90
+    }
+  },
+  "common_labs": {
+    "glucose": ["glucose", "glu", "blood glucose", "fasting glucose", "FBS", "RBS"],
+    "hemoglobin_a1c": ["a1c", "hba1c", "hemoglobin a1c", "hgb a1c", "glycated hemoglobin"],
+    "creatinine": ["creatinine", "cr", "crea", "serum creatinine"],
+    "bun": ["bun", "blood urea nitrogen", "urea nitrogen"],
+    "sodium": ["sodium", "na", "na+"],
+    "potassium": ["potassium", "k", "k+"],
+    "chloride": ["chloride", "cl", "cl-"],
+    "co2": ["co2", "carbon dioxide", "bicarbonate", "bicarb"],
+    "hemoglobin": ["hemoglobin", "hgb", "hb"],
+    "hematocrit": ["hematocrit", "hct"],
+    "wbc": ["wbc", "white blood cell", "white blood cells", "white count", "leukocytes"],
+    "platelets": ["platelets", "plt", "platelet count"],
+    "rbc": ["rbc", "red blood cell count", "red count", "erythrocytes"],
+    "tsh": ["tsh", "thyroid stimulating hormone"],
+    "free_t4": ["free t4", "ft4", "thyroxine free"],
+    "cholesterol": ["cholesterol", "total cholesterol", "tc"],
+    "hdl": ["hdl", "hdl cholesterol", "hdl-c"],
+    "ldl": ["ldl", "ldl cholesterol", "ldl-c"],
+    "triglycerides": ["triglycerides", "trig", "tg"],
+    "alt": ["alt", "sgpt", "alanine aminotransferase"],
+    "ast": ["ast", "sgot", "aspartate aminotransferase"],
+    "alkaline_phosphatase": ["alkaline phosphatase", "alp", "alk phos"],
+    "total_bilirubin": ["total bilirubin", "bilirubin", "tbili"],
+    "albumin": ["albumin", "alb"],
+    "total_protein": ["total protein", "protein", "tp"],
+    "inr": ["inr", "international normalized ratio"],
+    "pt": ["pt", "prothrombin time"],
+    "ptt": ["ptt", "partial thromboplastin time", "aptt"],
+    "egfr": ["egfr", "gfr", "estimated gfr"],
+    "calcium": ["calcium", "ca", "ca2+"],
+    "magnesium": ["magnesium", "mg", "mg2+"],
+    "phosphorus": ["phosphorus", "phos", "phosphate"]
+  },
+  "units": {
+    "mg/dL": ["mg/dl", "mg/dL", "mg per dl"],
+    "g/dL": ["g/dl", "g/dL", "gm/dl"],
+    "mmol/L": ["mmol/l", "mmol/L", "mM"],
+    "mEq/L": ["meq/l", "mEq/L"],
+    "U/L": ["u/l", "U/L", "iu/l", "IU/L"],
+    "%": ["%", "percent"],
+    "10^3/uL": ["10^3/ul", "k/ul", "x10^3/uL", "thou/uL", "K/uL"],
+    "10^6/uL": ["10^6/ul", "m/ul", "x10^6/uL", "mil/uL", "M/uL"],
+    "ng/mL": ["ng/ml", "ng/mL"],
+    "pg/mL": ["pg/ml", "pg/mL"],
+    "mIU/L": ["miu/l", "mIU/L", "uIU/mL"],
+    "seconds": ["sec", "seconds", "s"],
+    "ratio": ["ratio"]
+  },
+  "abnormal_flags": {
+    "H": ["H", "HIGH", "HI"],
+    "L": ["L", "LOW", "LO"],
+    "HH": ["HH", "CRITICAL HIGH", "PANIC HIGH", "CH"],
+    "LL": ["LL", "CRITICAL LOW", "PANIC LOW", "CL"]
+  },
+  "reference_ranges": {
+    "glucose": {"low": 70, "high": 100, "unit": "mg/dL"},
+    "hemoglobin_a1c": {"low": 4.0, "high": 5.6, "unit": "%"},
+    "creatinine": {"low": 0.6, "high": 1.2, "unit": "mg/dL"},
+    "bun": {"low": 7, "high": 20, "unit": "mg/dL"},
+    "sodium": {"low": 136, "high": 145, "unit": "mEq/L"},
+    "potassium": {"low": 3.5, "high": 5.0, "unit": "mEq/L"},
+    "chloride": {"low": 98, "high": 106, "unit": "mEq/L"},
+    "co2": {"low": 23, "high": 29, "unit": "mEq/L"},
+    "hemoglobin": {"low": 12.0, "high": 17.0, "unit": "g/dL"},
+    "hematocrit": {"low": 36, "high": 50, "unit": "%"},
+    "wbc": {"low": 4.5, "high": 11.0, "unit": "10^3/uL"},
+    "platelets": {"low": 150, "high": 400, "unit": "10^3/uL"},
+    "tsh": {"low": 0.4, "high": 4.0, "unit": "mIU/L"},
+    "cholesterol": {"low": 0, "high": 200, "unit": "mg/dL"},
+    "hdl": {"low": 40, "high": 60, "unit": "mg/dL"},
+    "ldl": {"low": 0, "high": 100, "unit": "mg/dL"},
+    "triglycerides": {"low": 0, "high": 150, "unit": "mg/dL"},
+    "alt": {"low": 7, "high": 56, "unit": "U/L"},
+    "ast": {"low": 10, "high": 40, "unit": "U/L"},
+    "inr": {"low": 0.8, "high": 1.1, "unit": "ratio"},
+    "calcium": {"low": 8.5, "high": 10.5, "unit": "mg/dL"}
+  }
+}

@@ -1,0 +1,21 @@
+# NLP and NER
+spacy>=3.7.0
+scispacy>=0.5.0
+transformers>=4.36.0
+
+# Medical NER models (install separately)
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Vector search (for code retrieval)
+faiss-cpu>=1.7.4
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.0

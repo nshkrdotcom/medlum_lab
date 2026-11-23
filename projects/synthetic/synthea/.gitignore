@@ -1,0 +1,16 @@
+# Generated patient data
+data/
+output/
+
+# Synthea JAR and repo (downloaded by setup.sh)
+synthea/
+
+# Java build artifacts
+*.jar
+*.class
+target/
+build/
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,16 @@
+# Extracted patient data
+data/
+outputs/
+
+# Credentials (IMPORTANT)
+.env
+credentials.json
+*.pem
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Caches
+.cache/

@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "description": "Medication extraction patterns for rule-based extraction",
+  "patterns": {
+    "drug_with_dose": {
+      "description": "Full medication pattern: drug + dose + unit + optional route + optional frequency",
+      "pattern": "(?<drug_name>[A-Za-z][A-Za-z0-9-]+(?:\\s+[A-Za-z0-9-]+)?)\\s+(?<dose>\\d+(?:\\.\\d+)?)\\s*(?<dose_unit>mg|mcg|g|mL|ml|units?|IU)\\s*(?<route>PO|po|IV|iv|SC|sc|IM|im|SL|sl|PR|pr|topical|inhaled)?\\s*(?<frequency>(?:BID|bid|TID|tid|QID|qid|QD|qd|daily|q\\d+h|once\\s+daily|twice\\s+daily|three\\s+times\\s+daily|at\\s+bedtime|qhs|PRN|prn))?",
+      "confidence": 0.95
+    },
+    "drug_only": {
+      "description": "Drug name only pattern - requires dictionary validation",
+      "pattern": "(?<drug_name>[A-Za-z][A-Za-z0-9-]{3,}(?:\\s+[A-Za-z0-9-]+)?)",
+      "confidence": 0.7,
+      "requires_dictionary": true
+    },
+    "dose_only": {
+      "description": "Dose value and unit only",
+      "pattern": "(?<dose>\\d+(?:\\.\\d+)?)\\s*(?<dose_unit>mg|mcg|g|mL|ml|units?|IU)",
+      "confidence": 0.5
+    },
+    "dose_range": {
+      "description": "Dose range pattern (e.g., 50-100 mg)",
+      "pattern": "(?<dose_low>\\d+(?:\\.\\d+)?)\\s*-\\s*(?<dose_high>\\d+(?:\\.\\d+)?)\\s*(?<dose_unit>mg|mcg|g|mL|ml|units?|IU)",
+      "confidence": 0.9
+    },
+    "prn_indicator": {
+      "description": "PRN/as-needed indicator",
+      "pattern": "\\b(?:PRN|prn|as\\s+needed|when\\s+needed)\\b",
+      "confidence": 0.95
+    },
+    "duration": {
+      "description": "Duration of treatment",
+      "pattern": "(?:for|x)\\s*(?<duration_value>\\d+)\\s*(?<duration_unit>days?|weeks?|months?|d|wk|mo)",
+      "confidence": 0.9
+    }
+  },
+  "frequency_map": {
+    "bid": "BID",
+    "BID": "BID",
+    "tid": "TID",
+    "TID": "TID",
+    "qid": "QID",
+    "QID": "QID",
+    "qd": "daily",
+    "QD": "daily",
+    "daily": "daily",
+    "once daily": "daily",
+    "twice daily": "BID",
+    "three times daily": "TID",
+    "at bedtime": "qhs",
+    "qhs": "qhs",
+    "QHS": "qhs"
+  },
+  "route_map": {
+    "po": "PO",
+    "PO": "PO",
+    "iv": "IV",
+    "IV": "IV",
+    "sc": "SC",
+    "SC": "SC",
+    "subq": "SC",
+    "im": "IM",
+    "IM": "IM",
+    "sl": "SL",
+    "SL": "SL",
+    "pr": "PR",
+    "PR": "PR",
+    "topical": "topical",
+    "inhaled": "inhaled"
+  },
+  "dose_unit_normalization": {
+    "ml": "mL",
+    "ML": "mL",
+    "Ml": "mL",
+    "iu": "IU",
+    "IU": "IU",
+    "unit": "units",
+    "Unit": "units",
+    "Units": "units"
+  }
+}

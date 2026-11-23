@@ -1,0 +1,75 @@
+# Data directories (across all subprojects)
+**/data/
+**/cache/
+**/outputs/
+**/models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Credentials (IMPORTANT: never commit these)
+*.pem
+*.key
+credentials.json
+.env
+.env.*
+
+# Large files
+*.tar.gz
+*.zip
+*.gz
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+
+# Medical imaging formats
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.raw
+
+# Subproject binaries and local databases
+*.jar
+*.duckdb
+

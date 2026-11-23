@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "status_indicators": {
+    "active": ["active", "current", "ongoing", "present"],
+    "resolved": ["resolved", "cured", "healed", "recovered"],
+    "historical": ["h/o", "hx", "hx of", "history of", "past history", "pmh", "past medical history"],
+    "suspected": ["suspected", "possible", "probable", "?", "likely", "concerning for"],
+    "ruled_out": ["r/o", "ruled out", "no evidence of", "negative for"]
+  },
+  "severity_indicators": {
+    "mild": ["mild", "minimal", "slight", "minor"],
+    "moderate": ["moderate", "moderately"],
+    "severe": ["severe", "advanced", "serious", "critical", "significant"]
+  },
+  "laterality_indicators": {
+    "left": ["left", "L", "lt", "LT"],
+    "right": ["right", "R", "rt", "RT"],
+    "bilateral": ["bilateral", "B/L", "b/l", "both"]
+  },
+  "temporal_indicators": {
+    "acute": ["acute", "new onset", "sudden", "recent"],
+    "chronic": ["chronic", "long-standing", "persistent"]
+  },
+  "common_abbreviations": {
+    "HTN": "hypertension",
+    "DM": "diabetes mellitus",
+    "T2DM": "type 2 diabetes mellitus",
+    "T1DM": "type 1 diabetes mellitus",
+    "CHF": "congestive heart failure",
+    "CAD": "coronary artery disease",
+    "COPD": "chronic obstructive pulmonary disease",
+    "CKD": "chronic kidney disease",
+    "ESRD": "end stage renal disease",
+    "MI": "myocardial infarction",
+    "CVA": "cerebrovascular accident",
+    "TIA": "transient ischemic attack",
+    "DVT": "deep vein thrombosis",
+    "PE": "pulmonary embolism",
+    "GERD": "gastroesophageal reflux disease",
+    "UTI": "urinary tract infection",
+    "URI": "upper respiratory infection",
+    "PNA": "pneumonia",
+    "OSA": "obstructive sleep apnea",
+    "OA": "osteoarthritis",
+    "RA": "rheumatoid arthritis",
+    "SLE": "systemic lupus erythematosus",
+    "AFib": "atrial fibrillation",
+    "A-fib": "atrial fibrillation",
+    "HLD": "hyperlipidemia",
+    "BPH": "benign prostatic hyperplasia"
+  }
+}

@@ -1,0 +1,40 @@
+# Common medical conditions
+# Format: condition_name | common_aliases
+diabetes mellitus|diabetes,DM
+type 2 diabetes mellitus|type 2 diabetes,T2DM,type II diabetes,adult onset diabetes
+type 1 diabetes mellitus|type 1 diabetes,T1DM,type I diabetes,juvenile diabetes
+hypertension|HTN,high blood pressure
+hyperlipidemia|HLD,high cholesterol,dyslipidemia
+coronary artery disease|CAD,coronary heart disease,ischemic heart disease
+congestive heart failure|CHF,heart failure,cardiac failure
+atrial fibrillation|AFib,A-fib,AF
+myocardial infarction|MI,heart attack
+cerebrovascular accident|CVA,stroke
+transient ischemic attack|TIA,mini stroke
+chronic obstructive pulmonary disease|COPD,emphysema
+asthma|bronchial asthma
+pneumonia|PNA
+chronic kidney disease|CKD,chronic renal failure
+end stage renal disease|ESRD,kidney failure
+gastroesophageal reflux disease|GERD,acid reflux
+peptic ulcer disease|PUD,ulcer
+urinary tract infection|UTI
+upper respiratory infection|URI,common cold
+deep vein thrombosis|DVT,blood clot
+pulmonary embolism|PE
+obstructive sleep apnea|OSA,sleep apnea
+osteoarthritis|OA,degenerative joint disease
+rheumatoid arthritis|RA
+systemic lupus erythematosus|SLE,lupus
+depression|major depressive disorder,MDD
+anxiety|generalized anxiety disorder,GAD
+hypothyroidism|underactive thyroid
+hyperthyroidism|overactive thyroid
+anemia|low blood count
+benign prostatic hyperplasia|BPH,enlarged prostate
+dementia|cognitive impairment
+alzheimer disease|alzheimer's disease
+parkinson disease|parkinson's disease
+epilepsy|seizure disorder
+migraine|migraine headache
+chronic pain syndrome|chronic pain

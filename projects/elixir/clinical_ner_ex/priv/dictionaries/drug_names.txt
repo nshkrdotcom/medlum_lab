@@ -1,0 +1,156 @@
+# Common generic drug names (subset for initial development)
+# Format: drug_name (one per line, lowercase)
+# These are the most commonly prescribed medications in primary care
+# Source: Based on CMS Part D prescribing data
+
+# Diabetes medications
+metformin
+glipizide
+glyburide
+sitagliptin
+empagliflozin
+semaglutide
+liraglutide
+dulaglutide
+insulin
+pioglitazone
+
+# Cardiovascular medications
+lisinopril
+losartan
+valsartan
+amlodipine
+metoprolol
+atenolol
+carvedilol
+hydrochlorothiazide
+furosemide
+spironolactone
+warfarin
+clopidogrel
+apixaban
+rivaroxaban
+dabigatran
+
+# Statins and lipid medications
+atorvastatin
+rosuvastatin
+simvastatin
+pravastatin
+lovastatin
+ezetimibe
+
+# Blood pressure medications
+ramipril
+enalapril
+captopril
+diltiazem
+verapamil
+nifedipine
+hydralazine
+clonidine
+
+# Pain medications
+aspirin
+ibuprofen
+naproxen
+acetaminophen
+tramadol
+morphine
+oxycodone
+hydrocodone
+codeine
+gabapentin
+pregabalin
+duloxetine
+meloxicam
+celecoxib
+
+# Psychiatric medications
+sertraline
+fluoxetine
+citalopram
+escitalopram
+paroxetine
+venlafaxine
+bupropion
+mirtazapine
+trazodone
+amitriptyline
+nortriptyline
+lorazepam
+alprazolam
+diazepam
+clonazepam
+zolpidem
+quetiapine
+risperidone
+aripiprazole
+olanzapine
+
+# Thyroid medications
+levothyroxine
+liothyronine
+methimazole
+
+# GI medications
+omeprazole
+pantoprazole
+esomeprazole
+lansoprazole
+ranitidine
+famotidine
+ondansetron
+metoclopramide
+docusate
+polyethylene
+
+# Respiratory medications
+albuterol
+montelukast
+fluticasone
+budesonide
+ipratropium
+tiotropium
+prednisone
+prednisolone
+dexamethasone
+
+# Antibiotics
+amoxicillin
+azithromycin
+ciprofloxacin
+levofloxacin
+doxycycline
+metronidazole
+trimethoprim
+sulfamethoxazole
+cephalexin
+clindamycin
+nitrofurantoin
+penicillin
+vancomycin
+
+# Antivirals
+acyclovir
+valacyclovir
+oseltamivir
+
+# Vitamins and supplements
+cholecalciferol
+ergocalciferol
+folic
+cyanocobalamin
+
+# Other common medications
+finasteride
+tamsulosin
+sildenafil
+potassium
+magnesium
+ferrous
+calcium
+alendronate
+colchicine
+allopurinol
+hydroxychloroquine

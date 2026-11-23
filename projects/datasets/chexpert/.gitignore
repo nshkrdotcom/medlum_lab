@@ -1,0 +1,17 @@
+# CheXpert images
+data/
+*.jpg
+*.png
+*.dcm
+
+# Compressed archives
+*.zip
+*.tar.gz
+
+# Labels (small, but regenerable)
+# train.csv
+# valid.csv
+
+cache/
+outputs/
+models/

@@ -1,0 +1,25 @@
+# Medical imaging data
+data/
+datasets/
+
+# Trained models
+models/
+checkpoints/
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.nii.gz
+*.dcm
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+tensorboard/
+mlruns/

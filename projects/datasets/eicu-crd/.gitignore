@@ -1,0 +1,7 @@
+# eICU-CRD data
+data/
+*.csv
+*.csv.gz
+*.parquet
+cache/
+outputs/

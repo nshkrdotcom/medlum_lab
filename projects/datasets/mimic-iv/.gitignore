@@ -1,0 +1,13 @@
+# MIMIC-IV data (requires credentialed access)
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# PhysioNet credentials
+.physionet_credentials
+physionetrc
+
+# Processed outputs
+cache/
+outputs/

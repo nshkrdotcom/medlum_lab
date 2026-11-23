@@ -1,0 +1,27 @@
+[
+  {
+    "size": 1,
+    "version": "v1.0.0",
+    "metadata": {
+      "version": "v1.0.0",
+      "domain": "medical",
+      "task": "cvl",
+      "created_at": "2026-01-26T04:29:38.504572Z",
+      "agent_type": "medication",
+      "ontology_sources": [],
+      "parent_version": null,
+      "eval_run_id": null,
+      "phi_status": "none",
+      "access_level": "private",
+      "clinical_area": "cvl_training",
+      "data_license": "internal",
+      "sample_counts": {
+        "neutral": 0,
+        "entailment": 1,
+        "contradiction": 0
+      }
+    },
+    "hash": "f8f382d53014b60c895922d4bf0f1a1ad421d4e81a7e09624f2e69c1b5e16631",
+    "created_at": "2026-01-26T04:29:38.504601Z"
+  }
+]

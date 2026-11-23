@@ -1,0 +1,18 @@
+# FHIR-PYrate
+fhir-pyrate>=0.2.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP/API
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# FHIR parsing (optional)
+fhir.resources>=7.0.0
+
+# Utilities
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0

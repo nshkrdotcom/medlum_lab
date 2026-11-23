@@ -1,0 +1,19 @@
+# Models
+models/
+*.pt
+*.pth
+*.pkl
+*.bin
+
+# Data
+data/
+outputs/
+
+# Large code files (can be re-downloaded)
+icd10cm_codes*.txt
+icd10pcs_codes*.txt
+
+# Python
+venv/
+__pycache__/
+*.pyc
